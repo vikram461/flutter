@@ -15,6 +15,7 @@ class MainApp extends StatelessWidget {
 A car travels a distance of **120 km** in **3 hours**.
 
 The formula for speed is:
+![Circle](https://petapixel.com/assets/uploads/2024/01/High-resolution-image-of-sun.jpg)
 
 \[
 Speed = \frac{Distance}{Time}
