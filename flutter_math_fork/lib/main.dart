@@ -14,6 +14,8 @@ class MainApp extends StatelessWidget {
 final String mathematicsContent = r'''
 # Mathematics
 
+![Circle](https://petapixel.com/assets/uploads/2024/01/High-resolution-image-of-sun.jpg)
+
 **Mathematics** already existed in nature as patterns and symmetry. Humans developed mathematics according to their needs, such as farming, husbandry, calendars, trade, construction, science, etc.
 
 **Count** : The first mathematical idea. Later developed into comparison and then into measurement.
@@ -153,9 +155,7 @@ p \leq \sqrt{n}
 - \(2\) is the only even prime number.
 - There are **25 prime numbers up to 100**.
 
-\[
-\{2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97\}
-\]
+\ {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97\}
 
 ---
 
@@ -694,7 +694,7 @@ class QuestionRenderer extends StatelessWidget {
 
     final regex = RegExp(
       r'\\\[(.*?)\\\]',
-      dotAll: true,
+      dotAll: true, 
     );
 
     int lastIndex = 0;
